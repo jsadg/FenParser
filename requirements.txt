@@ -1,0 +1,7 @@
+ultralytics
+cv2
+chess
+gradio
+zipfile
+os
+joblib
