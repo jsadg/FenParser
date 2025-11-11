@@ -98,7 +98,7 @@ def parse_fen(image, castling_rights, enpassant_sq, turn):
         board.set_castling_fen(rights)
     
     # Add enpassant square to FEN
-    if enpassant_sq is not None:
+    if enpassant_sq is not None and enpassant_sq is not "":
         board.ep_square = chess.parse_square(enpassant_sq)
 
     # Set turn to whose move it is
